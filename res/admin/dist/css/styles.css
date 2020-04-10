@@ -1,0 +1,24 @@
+
+
+.form-control{
+    border-radius: 5px !important;
+}
+
+.checkbox{
+    width: 18px; 
+    height: 18px; 
+    border: none; 
+    cursor: pointer;
+}
+
+.dados, .contato, .endereco{
+    padding: 20px;
+    border: 1px solid grey; 
+    border-radius: 5px;
+}
+
+#nome-error, #email-error, #tipo_ser-error{
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+}

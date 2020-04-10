@@ -1,0 +1,547 @@
+.carrosel{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+
+.carroselimage{
+    background-color: bisque;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.carroselimage p, h5{
+    color: rgb(59, 57, 57);
+}
+
+.bg-light{    
+    background-color: #5c3264 !important;    
+    border-radius: 5px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color:  #bc9bf3 !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.collapsed{
+    color: white !important;
+}
+
+.navbar .navbar-toggler .icon-bar{
+     color: white !important;
+}
+
+.nav-link:hover{
+    color: peru !important;
+}
+
+.bt{
+    background-color: white !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.dropdown-menu{
+    box-shadow: 3px 3px 12px #555;    
+}
+
+/*
+.myfooter{
+    background-color: #5c3264 !important;
+    padding-top: 10px;
+    position: absolute;
+    color: white;
+    width: 100%;
+	height: 70px;
+	
+	
+	left: 0;
+	
+    
+}
+*/
+.myfooter{
+    background-color: #5c3264 !important;
+    padding-top: 5px;
+    color: white;    
+}
+
+.navbar img{
+    width: 90px;
+    height: 50px;
+    margin: -10px;
+}
+
+.card{
+    margin-bottom:15px !important;
+    border-radius: 5px;
+    padding: 10px;	
+}
+
+
+.myicon{
+    font-size: 2em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.card{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #FFF;
+}
+
+
+
+
+/*------------------------estilos2-----------*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+
+/*---------------------------------------------Variados----------------------------------*/
+
+.borda{
+    background: #2f3238;
+}
+
+.borda2{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding-bottom: 105px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-enviar{
+    background-color: #5c3264;
+    color: white;
+    
+}
+
+
+/*logotipo*/
+.myimage{
+    width: 200px;
+    height: 135px;
+    padding: 10px;
+    border-radius: 3px !important;    
+}
+
+.capa{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px;
+    max-width: 100%;
+}
+.vitrine{
+    margin-top: 5px;
+    margin-bottom: 60px;
+
+    /*position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    */
+    
+
+}
+.vitrineCapa{
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 300px;
+}
+
+.containerBanner{
+	/* width: 95%; */
+	
+}
+.bannerEmpresa{
+	
+    
+    /*height: 400px;*/
+}
+
+/*nome do estabelecimento*/
+.local{     
+    /*font-family: Arial Black, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 2px 2px 2px rgb(95, 86, 86);
+    font-size: 36px;
+    position: absolute;
+    bottom: 20px;
+    left: 260px;
+}
+.imgCapa{
+    width: 100%;
+    height: auto;    
+}
+
+.logo{
+    position: absolute;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 1px 1px 2px #555;
+    bottom: -60px;
+    left: 47px;
+    
+}
+.imgLogo{
+    border: 6px solid rgb(248, 250, 250);
+    box-shadow: 1px 1px 2px #555;
+    border-radius: 3px;
+    width: 170px;
+    height: 170px;
+}
+
+/*-------------------------------------------------------Galeria 1-----------------------------*/
+body{
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: #2f3238;*/
+    
+}
+
+h1{
+    font-family: "Saira Condensed", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-page{
+    background-color: #f2e5f7; /*rgb(211, 238, 241) #fbfbfb*/ 
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper div{
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+
+.wrapper div:hover{
+    border-top: 5px solid white;
+}
+
+.box{
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 300ms cubic-bezier(1,0,0,1);
+    filter: grayscale();
+}
+
+.box.open{
+    width: 200px;
+    height: 140px;
+    filter: contrast();
+}
+.box.clic{
+    width: 600px;
+    height: 360px;
+    filter: contrast();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------Galeria 2-------------------------*/
+body {
+    /*background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    min-height: 100vh;
+    font: normal 16px sans-serif;*/
+    
+}
+
+.gallery-container {
+    
+    color: #35373a;
+    /*min-height: 100vh;*/
+    /*border-radius: 20px;*/
+    /*box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);*/
+    
+    
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 5px auto;
+    color: #888;
+    font-size: 38px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    
+    margin-bottom: 10px;
+    transition: 0.2s ease-in-out;
+    /*box-shadow: 0 2px 3px rgba(0,0,0,0.2);*/
+   
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.30);
+    /*box-shadow: 0 8px 15px rgba(0,0,0,0.3);*/
+    box-shadow: 0 8px 15px rgba(250, 244, 255, 0.8);
+    z-index: 1;
+    
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+
+    width: 110px;
+    height: auto;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+/*
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .gallery-container {
+        border-radius: 0;
+    }
+
+    .tz-gallery img {
+        border-radius: 4px;    
+        width: 160px;
+        height: 100px;
+    
+    }
+}
+*/
+
+@media screen and (max-width: 1000px){
+  
+
+    .imgLogo{
+        width: 120px;
+        height:120px;
+    }
+
+    .local{
+        margin-left: -30px;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    
+
+    .imgLogo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .local{
+        margin-left: -40px;
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+
+    .wrapper div{
+        width: 300px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    /*.vitrineCapa{
+        width: 500px;
+        height: 200px;
+    }*/
+
+    
+    /*
+    .local{
+        font-size: 24px;
+        left: 15px;
+        top: -5px
+        
+    }
+    */
+    .local{
+        margin-left: -50px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .local{
+        margin-left: -70px;
+        
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .imgLogo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .local{
+        margin-left: -80px;        
+    }
+}
+
+@media screen and (max-width: 400px){
+
+
+    .local{
+        margin-left: -100px; 
+        font-size: 18px;        
+    }
+
+    .imgGaleria{
+        width: 9.5rem !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 280px){
+	/*
+    .imgGaleria{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    */
+    .imgLogo{
+        
+        width: 50px;
+        height: 50px;
+    }
+    .local{
+        margin-left: -90px;  
+        font-size: 15px;      
+    }
+
+    .imgGaleria{
+        height: 90px;
+        
+    }
+    
+    
+    .tz-gallery .lightbox img {
+        
+        border-radius: 4px;
+    
+        width: 50px;
+        height: 50px;
+    
+    }
+    
+    .fb-page{
+        width: 200px !important; 
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
